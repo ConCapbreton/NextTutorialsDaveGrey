@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply max-w-screen-xl mx-auto bg-gray-50;
+}
